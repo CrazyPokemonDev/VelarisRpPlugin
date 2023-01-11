@@ -1,7 +1,5 @@
 package de.crazypokemondev.minecraftpaper.velarisrpplugin.handlers;
 
-import org.bukkit.Bukkit;
-import org.bukkit.entity.Piglin;
 import org.bukkit.entity.PiglinAbstract;
 import org.bukkit.entity.Player;
 import org.bukkit.event.Event;
@@ -9,7 +7,6 @@ import org.bukkit.event.entity.EntityTargetEvent;
 import org.bukkit.inventory.EntityEquipment;
 import org.bukkit.potion.PotionEffect;
 import org.bukkit.potion.PotionEffectType;
-import org.jetbrains.annotations.NotNull;
 
 import java.util.Random;
 
