@@ -1,0 +1,35 @@
+name: VelarisRpPlugin
+version: '${version}'
+main: de.crazypokemondev.minecraftpaper.velarisrpplugin.VelarisRpPlugin
+api-version: 1.19
+authors: [ Olfi01 ]
+permissions :
+  rp.command:
+    description: "Allows usage of the rp command"
+    default: true
+  rp.endling:
+    description: "Gives a player endling powers."
+    default: false
+  rp.netherling:
+    description: "Gives a player netherling powers."
+    default: false
+  rp.windling:
+    description: "Gives a player windling powers."
+    default: false
+  rp.wolfling:
+    description: "Gives a player wolfling powers."
+    default: false
+  rp.werewolf:
+    description: "Gives a player werewolf powers."
+    default: false
+  rp.quinn:
+    description: "Gives a player quinn powers."
+    default: false
+  rp.zombie:
+    description: "Gives a player zombie powers."
+    default: false
+commands:
+  rp:
+    description: Switches role play related effects on and off
+    usage: /rp <on|off>
+    permission: rp.command
